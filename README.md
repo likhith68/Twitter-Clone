@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Twitter-Clone using React JS and Firebase
+
+The App has Login and Post features.
+It is identical to Twitter Web App. For Login, Google Authentication is Used.Firebase Firestore Database is used for the Database and the App is Deployed Using Firebase. 
+
+## Deployed this Project :)
+Check it out==>
+Link--https://twitter-clone-d035b.web.app/
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
