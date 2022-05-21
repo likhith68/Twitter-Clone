@@ -1,0 +1,36 @@
+.feed {
+    flex: 0.4;
+    border-right: 1px solid var(--background-color);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+
+/* For Hiding the Scroll Bar */
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* For Hiding the Scroll Bar */
+
+.feed {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.feed__header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    opacity: 0.9;
+    border: 1px solid var(--background-color);
+    padding: 5px 20px;
+}
+
+.feed__header>h2 {
+    font-size: 20px;
+    font-weight: 800;
+}

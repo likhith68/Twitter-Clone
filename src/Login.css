@@ -1,0 +1,29 @@
+.login {
+    background-color: var(--background-color);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.login__container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 70px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.login__container>img {
+    display: flex;
+    object-fit: contain;
+    height: 300px;
+}
+
+.login__container>button {
+    background-color: var(--twitter-color)!important;
+    color: white!important;
+    text-transform: inherit;
+    border-radius: 30px;
+    font-weight: 800;
+    padding: 20px;
+}

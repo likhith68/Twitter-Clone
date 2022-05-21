@@ -1,0 +1,29 @@
+body {
+    --twitter-color: #50b7f5;
+    --background-color: #e6ecf0;
+}
+
+.App {
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+.explore,
+.notifications,
+.messages,
+.bookmarks,
+.lists,
+.profile,
+.more {
+    flex: 0.4;
+    position: sticky;
+    background-color: white;
+    opacity: 0.9;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
